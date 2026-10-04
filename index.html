@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraDigital | Modern Web & AI Solutions</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo"><i class="fa-solid fa-cube"></i> Aura<span>Digital</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#stats">Impact</a></li>
+                <li><a href="#contact" class="btn-nav">Get Started</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-text">
+                <span class="badge"><i class="fa-solid fa-bolt"></i> Next-Gen Web Development</span>
+                <h1>Designing Digital Experiences That Matter</h1>
+                <p>We transform complex ideas into high-performing, beautiful, and fully responsive digital products for ambitious brands.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Start a Project <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#services" class="btn btn-secondary">Explore Work</a>
+                </div>
+            </div>
+            <div class="hero-card-preview">
+                <div class="glass-card">
+                    <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Modern Tech Stack</h3>
+                    <p>Built with high performance & SEO optimization in mind.</p>
+                </div>
+                <div class="glass-card floating">
+                    <div class="card-icon cyan"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                    <h3>100% Responsive</h3>
+                    <p>Flawless experience across Mobile, Tablet & Desktop.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-header">
+            <h2>Our Specialized Services</h2>
+            <p>End-to-end digital solutions designed to help your business scale faster.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="icon-box"><i class="fa-solid fa-laptop-code"></i></div>
+                <h3>Web Engineering</h3>
+                <p>Custom websites built with modern frameworks for speed, security, and scalability.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+            <div class="service-card">
+                <div class="icon-box"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                <h3>UI/UX Design</h3>
+                <p>Intuitive user interfaces crafted with precision to maximize engagement and conversions.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+            <div class="service-card">
+                <div class="icon-box"><i class="fa-solid fa-chart-line"></i></div>
+                <h3>SEO & Analytics</h3>
+                <p>Data-driven strategies to boost search engine visibility and reach target audiences.</p>
+                <a href="#contact" class="service-link">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats" id="stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <h3>99%</h3>
+                <p>Client Satisfaction</p>
+            </div>
+            <div class="stat-item">
+                <h3>150+</h3>
+                <p>Projects Delivered</p>
+            </div>
+            <div class="stat-item">
+                <h3>24/7</h3>
+                <p>Technical Support</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>Why Partner With AuraDigital?</h2>
+                <p>We combine strategic thinking with cutting-edge technology to build digital solutions that make an impact. Our passion is turning vision into reality.</p>
+                <ul class="check-list">
+                    <li><i class="fa-solid fa-circle-check"></i> Plagiarism-free & clean modular code</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Fast loading speed & smooth interactions</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Dedicated support & seamless deployment</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact" id="contact">
+        <div class="contact-card">
+            <h2>Let's Build Something Great Together</h2>
+            <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                <div class="form-group">
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <textarea rows="4" placeholder="Tell us about your project..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary full-width">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 AuraDigital Agency. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
